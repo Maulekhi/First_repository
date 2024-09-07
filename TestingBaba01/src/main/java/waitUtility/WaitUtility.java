@@ -1,0 +1,18 @@
+package waitUtility;
+
+import org.openqa.selenium.WebElement;
+
+public interface WaitUtility 
+{
+public void waitforClick(WebElement ele);
+public void waitforVisibilty(WebElement ele);
+public void waitforAlert();
+
+}
+
+
+
+
+
+
+
